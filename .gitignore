@@ -1,10 +1,21 @@
-# Python-generated files
-__pycache__/
-*.py[oc]
-build/
-dist/
-wheels/
-*.egg-info
+# Environment variables
+.env
 
-# Virtual environments
-.venv
+# PyCharm
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+lovableclone/
+
+# Generated folders
+generated_projects/
+agent/generated_projects/
+agent/generated_project/
+
+# Lock files
+uv.lock
